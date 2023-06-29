@@ -1,0 +1,13 @@
+.indItem{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+    padding: 20px;
+    width: 30%;
+  
+
+}
+.indItem img{
+    width: 75%;
+    height: 175px;
+}
