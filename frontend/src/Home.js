@@ -19,6 +19,7 @@ const Home = () => {
 		console.log(furnitureData.furniture),
 		(
 			<section className="AllItem">
+				{/* the last .furnitureData is the name given to the database object */}
 				{furnitureData.furniture.furnitureData &&
 					furnitureData.furniture.furnitureData.map((furniture) => (
 						<IndividualFurniture
